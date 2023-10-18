@@ -1,6 +1,23 @@
 import Arrets from "../assets/json/Arrets.json"
 import Coords from "../assets/json/Coord.json"
 
+/**
+ *
+ * @returns {{codeLieu: string, libelle: string, distance: null,ligne: {numLigne: string}[],stop_id: string,stop_code: string,
+ *     "stop_name": string,
+ *     "stop_coordinates": {
+ *         "lon": number,
+ *         "lat": number
+ *     },
+ *     "stop_desc": null,
+ *     "zone_id": null,
+ *     "stop_url": null,
+ *     "location_type": string,
+ *     "parent_station": null,
+ *     "stop_timezone": null,
+ *     "wheelchair_boarding": null
+ * }[]}
+ */
 export default function() {
     let coords = Coords.filter((c) => c.location_type == 1)
 
