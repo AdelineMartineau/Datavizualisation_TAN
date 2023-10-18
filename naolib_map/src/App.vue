@@ -1,14 +1,14 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <MobilityMap msg="Welcome to Your Vue.js App"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MobilityMap from './components/MobilityMap.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MobilityMap
   }
 }
 </script>

@@ -1,10 +1,10 @@
 <template>
-  <div style="height:600px; width:800px">
-    <l-map ref="map" v-model:zoom="zoom" :center="[47.2025, -1.5474999999999999]">
+  <div style="height:600px; width:900px">
+    <l-map ref="map" v-model:zoom="zoom" :center="[47.216671, -1.55]">
       <l-tile-layer
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          layer-type="base"
-          name="OpenStreetMap"
+        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        layer-type="base"
+        name="OpenStreetMap"
       ></l-tile-layer>
       <l-marker v-for="(pts, index) in points" :key="index" :lat-lng="[pts.stop_coordinates.lat,pts.stop_coordinates.lon]"></l-marker>
     </l-map>
@@ -28,7 +28,7 @@ export default {
   },
   data() {
     return {
-      zoom: 20,
+      zoom: 12,
       points
     };
   },
