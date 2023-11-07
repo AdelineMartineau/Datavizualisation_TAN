@@ -8,7 +8,7 @@ import MobilityMap from './components/MobilityMap.vue'
 export default {
   name: 'App',
   components: {
-    MobilityMap
+    MobilityMap,
   }
 }
 </script>
