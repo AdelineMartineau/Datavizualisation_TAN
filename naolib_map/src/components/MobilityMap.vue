@@ -6,7 +6,7 @@
           layer-type="base"
           name="OpenStreetMap"
       ></l-tile-layer>
-      <!--      <l-marker v-for="(pts, index) in points" :key="index" :lat-lng="[pts.stop_coordinates.lat,pts.stop_coordinates.lon]"></l-marker>-->
+            <l-marker v-for="(pts, index) in points" :key="index" :lat-lng="[pts.stop_coordinates.lat,pts.stop_coordinates.lon]"></l-marker>
 <!--      <l-polyline :lat-lngs="polyline.latlngs" :color="polyline.color"></l-polyline>-->
             <LigneTrajet></LigneTrajet>
     </l-map>
@@ -15,7 +15,7 @@
 
 <script>
 import "leaflet/dist/leaflet.css";
-import {LMap, LTileLayer/*,LPolyline*/} from "@vue-leaflet/vue-leaflet";
+import {LMap, LTileLayer,LMarker/*,LPolyline*/} from "@vue-leaflet/vue-leaflet";
 import getArretFilter from "../services/getArretFilter";
 import LigneTrajet from "@/components/LigneTrajet.vue";
 
@@ -25,6 +25,7 @@ export default {
   components: {
     LMap,
     LTileLayer,
+    LMarker,
     // LPolyline,
     LigneTrajet
   },
