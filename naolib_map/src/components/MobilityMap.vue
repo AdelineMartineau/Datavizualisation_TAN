@@ -49,6 +49,22 @@
                 alt="Marker viollet (très belle couleur en passant)"></div>
             <div class="col-9">Arrêt de Tram et de Bus</div>
           </li>
+          <li class="list-group-item row d-flex">
+            <div class="col-3">
+              <svg height="25">
+                <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-width: 3px; stroke-linecap: round; transform-box: fill-box; transform-origin: 50% 0%;" d="M 1.5 16.521 C 12.299 16.521 19.634 16.521 26.962 16.521" transform="matrix(1, 0, 0, 1, 0.000001, 0)"></path>
+              </svg>
+            </div>
+            <div class="col-9">Ligne de Bus</div>
+          </li>
+          <li class="list-group-item row d-flex">
+            <div class="col-3">
+              <svg height="25">
+                <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-width: 15px; stroke-linecap: round; transform-box: fill-box; transform-origin: 50% 0%;" d="M 7.5 16.521 C 12.299 16.521 19.634 16.521 26.962 16.521" transform="matrix(1, 0, 0, 1, 0.000001, 0)"></path>
+              </svg>
+            </div>
+            <div class="col-9">Ligne de Tram</div>
+          </li>
         </ul>
       </div>
     </div>
