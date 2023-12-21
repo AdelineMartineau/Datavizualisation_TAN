@@ -109,17 +109,17 @@ export default {
         tram: L.icon({
           iconUrl: "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png",
           iconSize: [12, 20],
-          iconAnchor: [16, 16]
+          iconAnchor: [6, 20]
         }),
         bus: L.icon({
           iconUrl: "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png",
           iconSize: [12, 20],
-          iconAnchor: [16, 16]
+          iconAnchor: [6, 20]
         }),
         twice: L.icon({
           iconUrl: "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-violet.png",
           iconSize: [12, 20],
-          iconAnchor: [16, 16]
+          iconAnchor: [6, 20]
         }),
       }
     };
